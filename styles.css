@@ -1,0 +1,167 @@
+html {
+    height: 100%;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+
+/* Margin for all sections */
+.header,
+.sec1,
+.sec2,
+.sec3,
+.sec4,
+.footer {
+    padding: 0 100px;
+}
+
+/* Grow content evenly */
+.sec1,
+.sec2,
+.sec3,
+.sec4 {
+    display: flex;
+    flex-grow: 1;
+}
+
+/* Header */
+.header,
+.footer {
+    height: 40px;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    font-size: 12px;
+}
+
+.link {
+    padding: 0 10px;
+}
+
+/* Content (two-column)*/
+.header,
+.sec1,
+.sec4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+}
+
+.welcome {
+    font-weight: 800;
+    font-size: 48px;
+    width: 400px;
+}
+
+.button {
+    background-color: #3882f6;
+    padding: 5px 15px;
+    margin: 10px 0;
+    border-radius: 7px;
+    display: inline-block;
+}
+
+.pic,
+.pic2,
+.pic3 {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.pic {
+    width: 200px;
+}
+
+/* Section 2 (4 pics) */
+.sec2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.random {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.fact_pair {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fact_pairs {
+    display: flex;
+    justify-content: space-between  
+}
+
+.fact {
+    padding-top: 10px;
+}
+
+.pic2 {
+    width: 120px;
+}
+
+.pic3 {
+    width: 150px;
+}
+
+/* Section 3 (Quote) */
+.sec3 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 150px;
+}
+
+.person {
+    display: flex;
+    justify-content: right;
+    font-weight: bold;
+}
+
+.quote {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 36px;
+    font-weight: 100;
+    color: #1F2937;
+    font-style: italic;
+}
+
+/* Section 4 */
+#s4 {
+    background-color: #3882f6;
+    margin: 50px 100px;
+}
+
+.sec4 .button {
+    border: 1px solid white;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    background-color: #1F2937;
+    color: white;
+}
